@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.slider{width: 100%;}
+.slider ul{list-style-type: none;
+width: 200%;
+animation: slider 10s infinite alternate;
+display: flex;}
+.slider li{width: 100%;
+float: left;}
+.slider{width: 100%;
+height: auto;}
+
+@keyframes slider{
+	0%{margin-left: 0;}
+	20%{margin-left: 0;}
+	30%{margin-left: -100%;}
+	50%{margin-left: -100%;}
+	60%{margin-left: -200%;}
+	80%{margin-left: -200%;}
+	90%{margin-left: -300;}
+	100%{margin-left: -300;}
+}
